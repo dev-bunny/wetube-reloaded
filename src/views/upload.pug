@@ -1,0 +1,12 @@
+extends base
+
+block content
+    h4 Upload video
+    form(method="POST")
+        //have to set the name to send to req.body
+        input(name="title", placeholder="Title", required)
+        input(name="rating" placeholder="rating", required)
+        input(name="comments" placeholder="comments", required)
+        input(value="Upload Video" type="submit")
+
+

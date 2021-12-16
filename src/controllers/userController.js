@@ -1,4 +1,4 @@
-export const join = (req, res) => res.send("Join User");
+export const join = (req, res) => res.render("join");
 export const login = (req, res) => res.send("Login User");
 export const see = (req, res) => res.send("See User");
 export const logout = (req, res) => res.send("Logout User");
