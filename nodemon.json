@@ -1,0 +1,4 @@
+{
+  "ignore": ["src/views/*"],
+  "exec": "babel-node src/server.js"
+}
